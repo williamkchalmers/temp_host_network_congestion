@@ -1,0 +1,117 @@
+
+ Intel(r) Performance Counter Monitor ($Format:%ci ID=%h$)
+
+ This utility measures Latency information
+
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU family               : 6
+CPU model number         : 94
+Number of physical cores: 4
+Number of logical cores: 4
+Number of online logical cores: 4
+Threads (logical cores) per physical core: 1
+Num sockets: 1
+Physical cores per socket: 4
+Last level cache slices per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 3
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2700000000 Hz
+IBRS enabled in the kernel   : yes
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+Package thermal spec power: 65 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+INFO: Linux perf interface to program uncore PMUs is present
+Socket 0: 0 PCU units detected. 0 IIO units detected. 0 IRP units detected. 0 CHA/CBO units detected. 0 MDF units detected. 0 UBOX units detected. 0 CXL units detected. 0 PCIE_GEN5x16 units detected. 0 PCIE_GEN5x8 units detected.
+
+ Zeroed PMU registers
+ Disabling NMI watchdog since it consumes one hw-PMU counter. To keep NMI watchdog set environment variable PCM_KEEP_NMI_WATCHDOG=1 (this reduces the core metrics set)
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+
+Detected Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz "Intel(r) microarchitecture codename Skylake" stepping 3 microcode level 0xf0
+
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0 Thread0     
+-----------------------------------------------------------------------------
+Core0: 17.50        
+Core1: 2.44        
+Core2: 2.44        
+Core3: 14.61        
+
+Average latency per socket
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0: 2.66
+
+
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0 Thread0     
+-----------------------------------------------------------------------------
+Core0: 19.88        
+Core1: 2.47        
+Core2: 2.47        
+Core3: 17.32        
+
+Average latency per socket
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0: 2.84
+
+
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0 Thread0     
+-----------------------------------------------------------------------------
+Core0: 16.71        
+Core1: 2.46        
+Core2: 2.46        
+Core3: 14.47        
+
+Average latency per socket
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0: 3.07
+
+
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0 Thread0     
+-----------------------------------------------------------------------------
+Core0: 20.56        
+Core1: 2.44        
+Core2: 2.44        
+Core3: 13.90        
+
+Average latency per socket
+
+L1 Cache Miss Latency(ns) [Adding 5 clocks for L1 Miss]
+
+Socket0: 2.62
+
+DEBUG: caught signal to interrupt (Terminated).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+ Re-enabling NMI watchdog.

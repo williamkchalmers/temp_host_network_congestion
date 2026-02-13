@@ -1,0 +1,22 @@
+{
+    "MLC_PATH": "tools/mlc",
+    "PCM_PATH": "tools/pcm/build/bin",
+    "STATS_PATH": "results",
+    "FIO_PATH": "/usr/bin",
+    "GPU_PATH": "tools/gpu/gpu_stress",
+    "STREAM_PATH": "tools/stream",
+    "REDIS_PATH": "/usr/bin/redis-server",
+    "MEMTIER_PATH": "tools/memtier_benchmark",
+    "MMAPBENCH_PATH": "tools/mmapbench",
+    "GAPBS_PATH": "tools/gapbs",
+    "NUMA_CORES": ["0,1,2,3"],
+    "NUMA_ORDER": "0",
+    "SSDS": ["data/fiotestfile"],
+    "SSDScomment": ["WARNING: Only add a path below if you have a DEDICATED scratch disk. Do not put your OS drive here."],
+    "MEM_CHANNELS": ["0", "1"],
+    "CHAS": ["0"],
+    "IPRS": ["0"],
+    "IRPS": ["0"],
+    "CHA_FREQ": 2700000000,
+    "IMC_FREQ": 1066000000
+}

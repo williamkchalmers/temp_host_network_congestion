@@ -1,0 +1,5 @@
+# Executable
+poll_banks
+
+# Logs
+*.bconf
